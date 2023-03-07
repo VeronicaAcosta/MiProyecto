@@ -1,0 +1,30 @@
+/* practicando flexbox */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    border: 1px solid blue; 
+    padding: 10px 15px;
+}
+
+
+/* flexbox */
+
+ul{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10%;
+}
+
+

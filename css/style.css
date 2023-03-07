@@ -1,0 +1,170 @@
+/* FUENTES */
+/*font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Pagina Principal*/
+
+
+#imagen_home{
+    background-image: url(../imagenes/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5%;
+    margin-top: 50px;
+ } 
+ 
+ ul li a{
+     text-decoration: none;
+     color: black;
+     font-size: 28px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .a-inicio:hover{
+ color: gold;
+ border-bottom: 3px solid goldenrod;
+ padding-bottom: 3px;
+ }
+
+
+a{
+    color: black;
+}
+
+
+
+/*Sobre mi*/
+
+#imagen_sobremi{
+    background-image: url(../imagenes/SOBRE\ MI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+ color: gold;
+ font-size: 35px;
+ font-family: 'Roboto', sans-serif;
+}
+
+
+.textoabout{
+    font-size: 25px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+}
+
+.imagen{
+    margin: 15px;
+    margin-top: 80px;
+}
+
+
+
+/*Servicios*/
+
+#imagen_servicios{
+    background-image: url(../imagenes/Servicios.Portfolio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    color: gold;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+   }
+
+.subtitulos{
+    color:blueviolet;
+    font-family: 'Lora';
+    font-size: 30px;
+}
+
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.contenedor{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid purple;
+    margin: 20px;
+}
+
+
+/*portfolio*/
+
+#imagen_portfolio{
+    background-image: url(../imagenes/Servicios.Portfolio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.a-portfolio{
+    font-size: 25px ;
+    color:gold;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+/*Contacto*/
+
+#imagen_contacto{
+    background-image: url(../imagenes/Contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    color: gold;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+   }
+
+
+.trescontenedores{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+.contenedor1{
+    border-top: 2px solid purple;
+    border-left: 2px solid purple;
+    border-right: 2px solid purple;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor2{
+    border-bottom: 2px solid purple;
+    border-right: 2px solid purple;
+    border-left: 2px solid purple;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
