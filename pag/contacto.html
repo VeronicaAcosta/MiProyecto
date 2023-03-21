@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <!--SEO-->
+    <meta name="description" content="Servicio de maquillaje social y artistico para mujeres, hombres y niños dentro de Montevideo Uruguay, de gran calidad y experiencia en el rubro.">
+    <meta name="keywords" content="maquillaje maquillajesocial maquillajeartistico arte colores maquilladora profesional montevideo fiesta eventos altagama experiencia arteuruguay artista cutcrease coloresbrillantes sombras skincare makeup">
     <link rel="shortcut icon" href="../imagenes/iconopincel.jpg" type="image/x-icon"><link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a859ef3563.js" crossorigin="anonymous"></script>
@@ -15,25 +18,35 @@
 
    
       <header >
-        <nav class="margenes">
-            <ul>
-                <li><a class="a-inicio" href="../index.html">Home</a> </li>
-                <li><a class="a-inicio" href="./sobremi.html">Sobre mi</a> </li>
-                <li><a class="a-inicio" href="./servicios.html">Servicios</a> </li>
-                <li><a class="a-inicio" href="./portfolio.html">Portfolio</a> </li>
-                <li><a class="a-inicio" href="./contacto.html">Contacto</a> </li>
-            </ul>
+
+        <nav class="navbar navbar-expand-lg nav-mia navbar-center">
+          <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+              <div class="navbar-nav ">
+                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link" href="../pag/sobremi.html">Sobre mi</a>
+                <a class="nav-link" href="../pag/servicios.html">Servicios</a>
+                <a class="nav-link" href="../pag/portfolio.html">Portfolio</a>
+                <a class="nav-link" href="../pag/contacto.html">Contacto</a>
+              </div>
+            </div>
+          </div>
         </nav>
-        <a class="titulo" href="../index.html">Contacto</a>
+       <a class="titulo mov-titulo" href="../index.html">Contacto</a>
+
     </header>
         
    <main>
+
     <section class="container-fluid">
         <div class="row ">
             <div class="trescontenedores col-lg-6 col-12 mt-5">
             <div class="d-flex align-items-center">
                 <div class="flex-shrink-0">
-                  <img src="../imagenes/ig.png" alt="verinarte">
+                  <img src="../imagenes/ig.png" alt="Nombre de maquilladora en instagram">
                 </div>
                 <div class="flex-grow-1 ms-3">
                   verinarte
@@ -41,7 +54,7 @@
               </div>
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0">
-                  <img src="../imagenes/wspp.png" alt="+598 91420184">
+                  <img src="../imagenes/wspp.png" alt="Numero de telefono de Uruguay">
                 </div>
                 <div class="flex-grow-1 ms-3">
                     +598 91420184
@@ -49,7 +62,7 @@
               </div>
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0">
-                  <img src="../imagenes/email.png" alt="email">
+                  <img src="../imagenes/email.png" alt="Email de maquilladora Uruguaya">
                 </div>
                 <div class="flex-grow-1 ms-3">
                     VeronicaAcosta2902@gmail.com
@@ -60,28 +73,60 @@
               <div class="contenedor1 d-flex p-2 bd-highlight col-10"><strong>Ofrezco mis servicios a domicilio sin costo extra dentro de Montevideo.</strong></div>
             <div class="contenedor2 d-flex p-2 bd-highlight col-10">Por consultas sobre costos, cualquier duda sobre el maquillaje a realizar, más sobre mis trabajos o pruebas de maquillaje no dude en contactarse conmigo.</div>
         </div>
+        <div>
+
+          <!--Formulario-->
+          <form>
+            <div class="mb-3 col-lg-6 col-12 mt-5">
+              <label for="exampleInputEmail1" class="form-label"> Email</label>
+              <input type="email" class="form-mio" id="exampleInputEmail1" aria-describedby="emailHelp" required="required">
+              <textarea name="consulta" id="contenedordetexto" cols="45" rows="10" style="resize: none;" placeholder="Dejame tu consulta aquí"></textarea>
+              <button type="submit" class="boton-enviar">Enviar</button>
+            </div>
+        </div>
       </div>
     </div>
    </section>
+  
   </main>
 
     <!--footer-->
-    <footer class="container-fluid">
-      <div class="row">  
-          <div class="col-lg-9">
-              <div class="row">
-                  <a class="col-lg-3 mt-1 contactfooter" href="./pag/contacto.html">Contacto</a>
-                  <span class="col-lg-3 col-12"><i class="fa-brands fa-whatsapp"></i></span>
-                  <span class="col-lg-3 col-12"><i class="fa-brands fa-instagram"></i></span>
-                  <span class="col-lg-3 col-12"><i class="fa-regular fa-envelope"></i></span>
-              </div>
-          </div>
-  
-          <div class="col-lg-3 col-12 mt-2">
-              <a class="politicas" href="#">Politicas de Privacidad</a>
-          </div>
+    <footer class="text-center text-white" style="background-color: #d1af3d;">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="./pag/contacto.html"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          
+          <!-- Instagram -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="./pag/contacto.html"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          
+        </section>
+        <!-- Section: Social media -->
       </div>
-  </footer>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-dark" href="#"></a>
+      </div>
+      <!-- Copyright -->
+    </footer>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>

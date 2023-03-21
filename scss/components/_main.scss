@@ -1,0 +1,94 @@
+//main Index
+main{
+    .logomov:hover{
+        transform: scale(1.2);
+        transition: all 2s;
+        margin-bottom: 25px;
+    
+    }
+}
+
+//main Sobre mi
+main{
+    .textoabout{
+        font-size: 22px;
+        color: $c-texto;
+        font-family: $ff-texto;
+        margin: $margen;
+    }
+}
+
+//main Servicios
+main{
+    margin: $margen;
+
+    .containerfluido{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor{
+        font-size: map-get($mixcontenedor, f-s );
+        font-family: map-get($mixcontenedor, f-f );
+        border: map-get($contenedores, bordetop );
+        margin: map-get($contenedores, f-s );
+     }
+     .carousel-control-prev-icon, .carousel-control-next-icon {
+        filter: invert(100%);
+     }
+}
+   
+//main Contacto
+main{
+    .trescontenedores{
+        font-size: map-get($mixcontenedor, f-s );
+        color: map-get($mixcontenedor, colores );
+        font-weight: map-get($mixcontenedor, f-weight );
+        font-family: map-get($mixcontenedor, f-f );
+        margin-top: map-get($mixcontenedor, margentop );
+        border-color: map-get($contenedores, colorborde );
+     }
+
+     .contenedor1{
+        border-top: map-get($contenedores, bordetop );
+        border-left: map-get($contenedores, bordeleft );
+        border-right: map-get($contenedores, borderight );
+        font-size: map-get($contenedores, f-s );
+        font-family: map-get($contenedores, f-f );
+    }
+
+    .contenedor2{
+        border-bottom: map-get($contenedores, bordebottom );
+        border-left: map-get($contenedores, bordeleft );
+        border-right: map-get($contenedores, borderight );
+        font-size: map-get($contenedores, f-s );
+        font-family: map-get($contenedores, f-f );
+        
+     }
+
+     #contenedordetexto{
+        display: map-get($contenedortexto, d-block );
+        margin-top: map-get($contenedortexto, margentop );
+        border: map-get($contenedortexto, borde );
+        border: map-get($contenedortexto, sc-borde );
+        font-family: map-get($contenedortexto, f-f );
+     }
+
+     .form-mio{
+        display: block;
+        border: violet solid 3px;
+        width: 65%;
+        font-family: $ff-texto;
+        }
+
+        .boton-enviar{
+            display: block;
+            border: violet solid 2px;
+            margin: $margen;
+            font-family: $ff-texto;
+            width: 13%;
+            &:hover{
+            color: goldenrod;
+            background-color: $c-texto;
+         }
+        }
+    }

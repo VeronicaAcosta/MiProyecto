@@ -1,0 +1,19 @@
+@mixin barranav ($f-barranav, $c-barranav, $mt-barranav, $fm-barranav){
+    font-size: $f-barranav;
+    color: $c-barranav;
+    margin-top: $mt-barranav;
+    font-family: $fm-barranav;
+}
+
+
+@mixin footer ($mt-footer, $bg-footer, $c-footer, $ta-footer){
+    margin-top: $mt-footer;
+    background-color: $bg-footer;
+    color: $c-footer;
+    text-align: $ta-footer;
+}
+
+@mixin background( $bg-s, $repeat){
+        background-size: $bg-s;
+        background-repeat: $repeat;
+    }

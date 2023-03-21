@@ -1,0 +1,21 @@
+header{
+    .nav-mia{
+     @include barranav(28px, black, 50px, 'Lucida Sans');
+    }
+    .nav-link:hover{
+     color: gold;
+     border-bottom: 3px solid goldenrod;
+     padding-bottom: 3px;
+    }
+ 
+    .titulo{
+       @extend %titulos;
+    }
+    .mov-titulo:hover{
+     transform: scale(1.2);
+     transition: all 2s;
+     color: rgb(176, 41, 194);
+    }
+ 
+ }
+  

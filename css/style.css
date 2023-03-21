@@ -1,196 +1,133 @@
-/* FUENTES */
-/*font-family: 'Lora', serif;
-font-family: 'Roboto', sans-serif;*/
-
-*{
-    margin: 0;
-    padding: 0;
+header .titulo {
+  color: gold;
+  font-size: 38px;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  text-decoration: none;
 }
 
-/*Pagina Principal*/
-
-
-#imagen_home{
-    background-image: url(../imagenes/home.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+  background-image: url("../imagenesscss/home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 5%;
-    margin-top: 50px;
- } 
- 
- ul li a{
-     text-decoration: none;
-     color: black;
-     font-size: 28px;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
- 
- .a-inicio:hover{
- color: gold;
- border-bottom: 3px solid goldenrod;
- padding-bottom: 3px;
- }
-
-
-a{
-    color: black;
+body {
+  background-image: url("../imagenesscss/sobremi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
-/*Sobre mi*/
-
-.margenes{
-    margin: 35px;
+body {
+  background-image: url("../imagenesscss/Servicios.Portfolio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#imagen_sobremi{
-    background-image: url(../imagenes/SOBRE\ MI.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+  background-image: url("../imagenesscss/Servicios.Portfolio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.titulo{
- color: gold;
- font-size: 35px;
- font-family: 'Roboto', sans-serif;
+body {
+  background-image: url("../imagenesscss/Contacto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
-
-.textoabout{
-    font-size: 25px;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 15px;
+header .nav-mia {
+  font-size: 28px;
+  color: black;
+  margin-top: 50px;
+  font-family: "Lucida Sans";
+}
+header .nav-link:hover {
+  color: gold;
+  border-bottom: 3px solid goldenrod;
+  padding-bottom: 3px;
+}
+header .mov-titulo:hover {
+  transform: scale(1.2);
+  transition: all 2s;
+  color: rgb(176, 41, 194);
 }
 
-.imagen{
-    margin: 15px;
-    margin-top: 80px;
+main .logomov:hover {
+  transform: scale(1.2);
+  transition: all 2s;
+  margin-bottom: 25px;
 }
 
-
-
-/*Servicios*/
-
-#imagen_servicios{
-    background-image: url(../imagenes/Servicios.Portfolio.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+main .textoabout {
+  font-size: 22px;
+  color: black;
+  font-family: "Lucida Sans";
+  margin: 20px;
 }
 
-.titulo{
-    color: gold;
-    font-size: 35px;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    margin: 25px;
-   }
-
-.subtitulos{
-    color:blueviolet;
-    font-family: 'Lora';
-    font-size: 30px;
+main {
+  margin: 20px;
+}
+main .containerfluido {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .contenedor {
+  font-size: 22px;
+  font-family: "Lucida sans";
+  border: 2px purple solid;
+  margin: 20px;
+}
+main .carousel-control-prev-icon, main .carousel-control-next-icon {
+  filter: invert(100%);
 }
 
-.containerfluido{
-    display: flex;
-    flex-wrap: wrap;
+main .trescontenedores {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+  font-family: "Lucida sans";
+  margin-top: 30px;
+}
+main .contenedor1 {
+  border-top: 2px purple solid;
+  border-left: 2px purple solid;
+  border-right: 2px purple solid;
+  font-size: 20px;
+  font-family: "lucida sans";
+}
+main .contenedor2 {
+  border-bottom: 2px purple solid;
+  border-left: 2px purple solid;
+  border-right: 2px purple solid;
+  font-size: 20px;
+  font-family: "lucida sans";
+}
+main #contenedordetexto {
+  display: block;
+  margin-top: 15px;
+  border: 3px violet solid;
+  font-family: "lucida sans";
+}
+main .form-mio {
+  display: block;
+  border: violet solid 3px;
+  width: 65%;
+  font-family: "Lucida Sans";
+}
+main .boton-enviar {
+  display: block;
+  border: violet solid 2px;
+  margin: 20px;
+  font-family: "Lucida Sans";
+  width: 13%;
+}
+main .boton-enviar:hover {
+  color: goldenrod;
+  background-color: black;
 }
 
-
-.contenedor{
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 2px solid purple;
-    margin: 20px;
-}
-
-footer {
-    margin-top: 20px;
-    background-color: rgb(207, 126, 218);
-    color: rgb(163, 131, 41) ;
-    text-align: center;
-}
-
-footer span {
-    font-size: 30px;
-}
-
-.politicas{
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.contactfooter{
-    font-size: 33px;
-    color: rgb(163, 131, 41);
-    text-decoration: none;
-
-}
-
-/*portfolio*/
-
-#imagen_portfolio{
-    background-image: url(../imagenes/Servicios.Portfolio.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.a-portfolio{
-    font-size: 25px ;
-    color:gold;
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-
-/*Contacto*/
-
-#imagen_contacto{
-    background-image: url(../imagenes/Contacto.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.titulo{
-    color: gold;
-    font-size: 35px;
-    font-family: 'Roboto', sans-serif;
-   }
-
-
-.trescontenedores{
-    font-size: 22px;
-    color: black;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 30px;
-}
-
-.contenedor1{
-    border-top: 2px solid purple;
-    border-left: 2px solid purple;
-    border-right: 2px solid purple;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.contenedor2{
-    border-bottom: 2px solid purple;
-    border-right: 2px solid purple;
-    border-left: 2px solid purple;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
-
+/*# sourceMappingURL=style.css.map */
