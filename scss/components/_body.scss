@@ -34,3 +34,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     }
+
+//body footer
+footer{
+    .fabmov:hover{
+        transform: scale(1.8);
+        transition: all 1.5s;
+        color: rgb(176, 41, 194);
+    }
+}
